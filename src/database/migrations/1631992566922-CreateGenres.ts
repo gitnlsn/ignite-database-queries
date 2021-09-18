@@ -15,12 +15,12 @@ export class CreateGenres1631992566922 implements MigrationInterface {
                 },
                 {
                     name: "name",
-                    type: "string",
+                    type: "varchar",
                     isNullable: false,
                 },
                 {
                     name: "description",
-                    type: "string",
+                    type: "varchar",
                 }
             ],
         }), true);
